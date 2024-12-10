@@ -1,0 +1,13 @@
+/* Globale Schriftart und Farben */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  footer a:hover {
+    color: #d4edda;
+  }
+  
+  .hero-btn {
+    border-radius: 50px;
+  }
+  

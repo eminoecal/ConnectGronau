@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./view/index.css">
-    <title>ConnectGronau</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect Gronau</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="view/style.css">
 </head>
 <body>
-    <nav>
-        loaded
-    </nav>
+  <!-- Header -->
+  <header class="bg-success text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 mb-0">Connect Gronau</h1>
+      <nav>
+        <a href="#" class="text-white mx-2">Start</a>
+        <a href="#" class="text-white mx-2">News</a>
+        <a href="#" class="text-white mx-2">Karte</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <h2 class="display-4 text-success">Willkommen bei Connect Gronau</h2>
+      <p class="lead text-secondary mt-3">
+        Entdecken Sie alles, was Gronau zu bieten hat – Nachrichten, Events, Tankstellenpreise und mehr!
+      </p>
+      <a href="#" class="btn btn-success btn-lg mt-4">Mehr entdecken</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="bi bi-newspaper text-success fs-1"></i>
+          <h3 class="mt-3">Aktuelle News</h3>
+          <p>Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten aus Gronau.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-geo-alt text-success fs-1"></i>
+          <h3 class="mt-3">Interaktive Karte</h3>
+          <p>Finden Sie Sehenswürdigkeiten, Tankstellen und mehr auf unserer Karte.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-calendar-event text-success fs-1"></i>
+          <h3 class="mt-3">Events</h3>
+          <p>Entdecken Sie spannende Veranstaltungen in Ihrer Stadt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white py-3">
+    <div class="container text-center">
+      <p>© 2024 Connect Gronau. Alle Rechte vorbehalten.</p>
+      <a href="#" class="text-white text-decoration-underline">Impressum</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
