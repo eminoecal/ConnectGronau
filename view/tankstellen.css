@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .card {
+    border: 1px solid #28a745;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
