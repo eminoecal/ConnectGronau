@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tankstellen Gronau</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tankstellen in Gronau</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="view/style.css">
-  <link rel="stylesheet" href="view/rankstellen.css">
+  <link rel="stylesheet" href="/view/tankstellen.css">
+  <link rel="stylesheet" href="/view/style.css">
 </head>
 <body>
-      <!-- Navigation -->
-  <header class="bg-success text-white py-3">
-    <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="h3 mb-0">Connect Gronau</h1>
-      <nav>
-        <a href="/index.html" class="text-white mx-2">Start</a>
-        <a href="aktuell.html" class="text-white mx-2">News</a>
-        <a href="#" class="text-white mx-2">Karte</a>
-      </nav>
+    <!-- Navigation -->
+    <header class="bg-success text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+          <h1 class="h3 mb-0">Connect Gronau</h1>
+          <nav>
+            <a href="/index.html" class="text-white mx-2">Start</a>
+            <a href="aktuell.html" class="text-white mx-2">News</a>
+            <a href="#" class="text-white mx-2">Karte</a>
+          </nav>
+        </div>
+      </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div id="tankstellen-container" class="row g-4">
+      <!-- Tankstellen werden hier dynamisch eingefügt -->
     </div>
-  </header>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3">
+    <p>© 2024 Connect Gronau. Alle Rechte vorbehalten.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/js/tankstellen.js"></script>
 </body>
 </html>
