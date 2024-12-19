@@ -1,8 +1,9 @@
 /* Globale Schriftart und Farben */
 html, body {
-    font-family: "Prompt", sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 100;
-    font-style: normal;
+    margin: 0;
+    padding: 0;
   }
   
   footer a:hover {
