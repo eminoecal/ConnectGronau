@@ -35,12 +35,14 @@ function renderTankstellen(stations) {
 
   stations.forEach((station) => {
     const card = document.createElement("div");
-    card.className = "col-md-4";
+    card.className = "col-md-4 col-sm-6";
     card.innerHTML = `
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">${station.name}</h5>
-          <p class="card-text">${station.street}, ${station.place}</p>
+          <h5 class="card-title">
+            <i class="bi bi-fuel-pump icon"></i>${station.name}
+          </h5>
+          <p class="card-text"><i class="bi bi-geo-alt icon"></i>${station.street} ${station.houseNumber}, ${station.place}</p>
           <p class="price">Super E5: ${station.e5 ? station.e5.toFixed(2) + " €/L" : "N/A"}</p>
           <p class="price">Super E10: ${station.e10 ? station.e10.toFixed(2) + " €/L" : "N/A"}</p>
           <p class="price">Diesel: ${station.diesel ? station.diesel.toFixed(2) + " €/L" : "N/A"}</p>
