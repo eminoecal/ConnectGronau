@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const articles = data.articles;
   
         if (articles.length === 0) {
-          newsContainer.innerHTML = "<p>Keine Nachrichten gefunden. </p>";
+          newsContainer.innerHTML = "<p>Keine Nachrichten gefunden.</p>";
           return;
         }
   
@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="content">
               <h3>${article.title}</h3>
               <p>${article.description || 'Keine Beschreibung verfügbar.'}</p>
-              <a href="${article.url}" target="_blank" class="btn btn-success btn-sm">Mehr erfahren</a>
+              <a href="${article.url}" target="_blank" class="btn btn-success btn-sm">Mehr erfahren...</a>
             </div>
           `;
           newsContainer.appendChild(newsCard);
         });
       })
       .catch((error) => {
-        console.error("Fehler beim Abrufen der Nachrichten:", error);
+        console.error("Fehler beim Abrufen der Nachrichten. Fehler:", error);
         newsContainer.innerHTML = "<p>Fehler beim Laden der Nachrichten.</p>";
       });
   });
