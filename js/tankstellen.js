@@ -8,13 +8,13 @@ async function fetchTankstellen() {
     );
 
     if (!response.ok) {
-      throw new Error("Fehler beim Abrufen der Tankstellen-Daten");
+      throw new Error("Fehler beim Abrufen der Tankstellen-Daten.");
     }
 
     const data = await response.json();
 
     if (data.status !== "ok") {
-      throw new Error("Fehler in der API-Antwort");
+      throw new Error("Fehler in der API-Antwort.");
     }
 
     renderTankstellen(data.stations);
@@ -43,7 +43,7 @@ function renderTankstellen(stations) {
             <i class="bi bi-fuel-pump icon"></i>${station.name}
           </h5>
           <p class="card-text"><i class="bi bi-geo-alt icon"></i>${station.street} ${station.houseNumber}, ${station.place}</p>
-          <p class="price">Super E5: ${station.e5 ? station.e5.toFixed(2) + " €/L" : "N/A"}</p>
+          <p class="price">Super E5: ${station.e5 ? station.e5.toFixed(2) + " €/L" : "Keine Preise gefunden"}</p>
           <p class="price">Super E10: ${station.e10 ? station.e10.toFixed(2) + " €/L" : "N/A"}</p>
           <p class="price">Diesel: ${station.diesel ? station.diesel.toFixed(2) + " €/L" : "N/A"}</p>
         </div>
