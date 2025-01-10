@@ -44,7 +44,7 @@ function renderTankstellen(stations) {
           </h5>
           <p class="card-text"><i class="bi bi-geo-alt icon"></i>${station.street} ${station.houseNumber}, ${station.place}</p>
           <p class="price">Super E5: ${station.e5 ? station.e5.toFixed(2) + " €/L" : "Keine Preise gefunden"}</p>
-          <p class="price">Super E10: ${station.e10 ? station.e10.toFixed(2) + " €/L" : "N/A"}</p>
+          <p class="price">Super E10: ${station.e10 ? station.e10.toFixed(2) + " €/L" : "Keine Preise gefunden."}</p>
           <p class="price">Diesel: ${station.diesel ? station.diesel.toFixed(2) + " €/L" : "N/A"}</p>
         </div>
       </div>
