@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const articles = data.articles;
   
         if (articles.length === 0) {
-          newsContainer.innerHTML = "<p>Keine Nachrichten gefunden.</p>";
+          newsContainer.innerHTML = "<p>Keine Nachrichten gefunden. API überprüfen</p>";
           return;
         }
   
