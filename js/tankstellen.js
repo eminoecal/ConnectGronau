@@ -14,7 +14,7 @@ async function fetchTankstellen() {
     const data = await response.json();
 
     if (data.status !== "ok") {
-      throw new Error("Fehler in der API-Antwort.");
+      throw new Error("Fehler in der API-Antwort. API überprüfen.");
     }
 
     renderTankstellen(data.stations);
