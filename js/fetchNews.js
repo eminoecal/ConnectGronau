@@ -1,7 +1,7 @@
 'use strict'
 
 document.addEventListener("DOMContentLoaded", () => {
-    const API_KEY = "9d7d3325b8034ae083bd6764f2c9d898"; // Ersetze durch deinen NewsAPI-Schlüssel
+    const API_KEY = "9d7d3325b8034ae083bd6764f2c9d898"; // Ersetze durch deinen NewsAPI Key
     const URL = `https://newsapi.org/v2/everything?q=48599&apiKey=${API_KEY}`;
   
     const newsContainer = document.getElementById("news-container");
