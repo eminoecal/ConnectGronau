@@ -1,5 +1,5 @@
 const API_KEY = "de824513-42dd-3a3b-a88f-4a6bfdbfde80"; // Tankerkönig API-Key
-const POSTLEITZAHL = "48599"; // PLZ
+const POSTLEITZAHL = "48599"; // PLZ für die Stadt
 
 async function fetchTankstellen() {
   try {
