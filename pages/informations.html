@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webseiten Informationen</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informationen - Connect Gronau</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/view/info.css">
+  <link rel="stylesheet" href="/view/style.css">
+  <link rel="stylesheet" href="/view/aktuell.css">
+  <link rel="stylesheet" href="/view/nav.css">
 </head>
 <body>
-    
+  <!-- Navigation -->
+  <header class="bg-success text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 mb-0">ConnectGronau</h1>
+      <nav>
+        <a href="/index.html" class="text-white mx-2">Start</a>
+        <a href="/pages/aktuell.html" class="text-white mx-2">Aktuell</a>
+        <a href="/pages/tankstellen.html" class="text-white mx-2">Tankstellen</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <h2 class="text-center text-success mb-4">Informationen</h2>
+
+    <!-- Impressum Section -->
+    <section class="mb-5">
+      <h3 class="text-success"><i class="bi bi-person-circle"></i> Impressum</h3>
+      <p>
+        <strong>Connect Gronau</strong><br>
+        Ochtruper Straße 26A<br>
+        48599 Gronau<br>
+        Deutschland<br>
+        <br>
+        Telefon: <a href="tel:+4315221527379" class="text-success">+49 01522 1527379</a><br>
+        E-Mail: <a href="mailto:info@connectgronau.de" class="text-success">info@connectgronau.de</a>
+      </p>
+    </section>
+
+    <!-- Datenschutz Section -->
+    <section>
+      <h3 class="text-success"><i class="bi bi-shield-lock"></i> Datenschutz</h3>
+      <p>
+        Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher
+        ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TMG). In dieser Datenschutzerklärung
+        informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.
+      </p>
+      <ul>
+        <li>Die Nutzung unserer Website ist ohne Angabe personenbezogener Daten möglich.</li>
+        <li>Cookies werden verwendet, um die Benutzerfreundlichkeit zu verbessern.</li>
+        <li>Ihre Daten werden nicht an Dritte weitergegeben.</li>
+      </ul>
+      <p>Bei Fragen zum Datenschutz können Sie uns unter <a href="mailto:datenschutz@connectgronau.de" class="text-success">datenschutz@connectgronau.de</a> kontaktieren.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3">
+    <p>© 2024 Connect Gronau. Alle Rechte vorbehalten.</p>
+    <a href="/pages/info.html" class="text-white text-decoration-underline">Impressum & Datenschutz</a>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
